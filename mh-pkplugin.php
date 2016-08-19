@@ -3,7 +3,7 @@
 Plugin Name: MH.com PIKLIST Plugin
 Plugin URI: http://piklist.com
 Description: Adds the custom PikList-enabled functionality and features to my site
-Version: 0.0.2
+Version: 0.0.3
 Author: Mervin Hernandez
 Author URI: http://mervinhernandez.com
 Plugin Type: Piklist
@@ -14,3 +14,5 @@ if (!defined('ABSPATH'))
 
 /*** myBooks - Post Type Definition ***/
 include 'mybooks.php';
+/*** myFriends - Post Type Definition ***/
+include 'myfriends.php';
