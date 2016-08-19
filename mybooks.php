@@ -40,6 +40,9 @@ My Books POST TYPE
   piklist('field', array(
     'type' => 'text'
     ,'field' => 'mybook_author'
+    , 'relate' => arra (
+    'scope' => 'mybook'
+  )
     ,'template' => 'field' // format the field without a label
     ,'attributes' => array(
       'class' => 'large-text'
