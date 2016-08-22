@@ -4,6 +4,7 @@ Definition for MyFriends Post Type
 = = =
 Related Piklist Items
 > myfriend-main.php
+> myfriend-details.php
 ***/
   add_filter('piklist_post_types', 'myfriends_post_type');
   function myfriends_post_type($post_types)
