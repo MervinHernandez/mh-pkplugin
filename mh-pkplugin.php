@@ -11,7 +11,6 @@ Text Domain: mh-pkplugin
 */
 if (!defined('ABSPATH'))
   {exit;}
-
 /*** myBooks - Post Type Definition ***/
 include 'mybooks.php';
 /*** myFriends - Post Type Definition ***/
