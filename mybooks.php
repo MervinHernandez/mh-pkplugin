@@ -35,16 +35,11 @@ My Books POST TYPE
     );
     return $post_types;
   }
-<<<<<<< HEAD
-=======
 /* Book Author Field */
   function my_add_sub_title() {
   piklist('field', array(
     'type' => 'text'
     ,'field' => 'mybook_author'
-    , 'relate' => arra (
-    'scope' => 'mybook'
-  )
     ,'template' => 'field' // format the field without a label
     ,'attributes' => array(
       'class' => 'large-text'
@@ -53,4 +48,3 @@ My Books POST TYPE
   ));
 }
 add_action('edit_form_after_title', 'my_add_sub_title');
->>>>>>> parent of f8cecb6... Revert "mybook_author relate to mybook post type only"
