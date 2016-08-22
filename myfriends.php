@@ -1,6 +1,9 @@
 <?php
 /***
-My Friends POST TYPE
+Definition for MyFriends Post Type
+= = =
+Related Piklist Items
+> myfriend-main.php
 ***/
   add_filter('piklist_post_types', 'myfriends_post_type');
   function myfriends_post_type($post_types)
@@ -12,9 +15,6 @@ My Friends POST TYPE
       // ,'page_icon' => piklist('url', 'piklist') . '/parts/img/piklist-page-icon-32.png'
       ,'supports' => array(
         'title'
-        ,'editor'
-        ,'author'
-        ,'excerpt'
       )
       ,'public' => true
       ,'admin_body_class' => array(

@@ -1,7 +1,10 @@
 <?php
 /***
-My Books POST TYPE
-+ Meta-box: mybook-details
+Definition for MyBook Post Type
+= = =
+Related Piklist Items
+> mybook-details.php
+> mybook-main.php
 ***/
   add_filter('piklist_post_types', 'mybooks_post_type');
   function mybooks_post_type($post_types)
