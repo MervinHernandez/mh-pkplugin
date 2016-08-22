@@ -16,6 +16,17 @@ lock: true
     ,'placeholder' => 'Book Author'
   )
   ));
+/* Excerpt Box */
+  piklist ('field', array (
+    'type' => 'textarea'
+  , 'field' => 'post_excerpt'
+  , 'scope' => 'post'
+  , 'template' => 'field'
+  , 'attributes' => array(
+      'class' => 'large-text'
+      ,'placeholder' => 'Excerpt'
+  )
+  ));
 
 /* Editor Box */
   piklist('field', array(

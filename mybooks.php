@@ -14,7 +14,6 @@ My Books POST TYPE
       ,'supports' => array(
         'title'
         , 'author'
-        , 'excerpt'
       )
       ,'public' => true
       ,'admin_body_class' => array(
