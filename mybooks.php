@@ -13,7 +13,6 @@ My Books POST TYPE
       // ,'page_icon' => piklist('url', 'piklist') . '/parts/img/piklist-page-icon-32.png'
       ,'supports' => array(
         'title'
-        ,'editor'
         , 'author'
         , 'excerpt'
       )

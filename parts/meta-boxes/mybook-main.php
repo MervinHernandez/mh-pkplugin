@@ -14,10 +14,9 @@ meta box: false
     'class' => 'large-text'
     ,'placeholder' => 'Book Author'
   )
-));
+  ));
 /* Editor Box */
-piklist('field', array(
-  'type' => 'editor',
-  'field' => 'content',
-  'label' => 'Post Content'
-));
+  piklist('field', array(
+    'type' => 'editor',
+    'field' => 'content',
+  ));
