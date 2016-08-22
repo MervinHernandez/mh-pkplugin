@@ -3,6 +3,7 @@
 title: Main Book Content
 post type: mybook
 meta box: false
+lock: true
 */
 
 /* Book Author Field */
@@ -15,11 +16,24 @@ meta box: false
     ,'placeholder' => 'Book Author'
   )
   ));
+
 /* Editor Box */
   piklist('field', array(
-    'type' => 'editor'
-    , 'field' => 'content'
-    , 'attributes' => arra(
-      'class' => 'large-text'
-      )
+    'type' => 'editor',
+    'field' => 'post_content', // This is the field name of the WordPress default editor
+    'scope' => 'post', // Save to the wp_post table
+    'label' => 'Post Content',
+    'template' => 'field', // Only display the field not the label
+    'options' => array( // Pass any option that is accepted by wp_editor()
+      'wpautop' => true,
+      'media_buttons' => true,
+      'shortcode_buttons' => true,
+      'teeny' => false,
+      'dfw' => false,
+      'quicktags' => true,
+      'drag_drop_upload' => true,
+      'tinymce' => array(
+        'resize' => false,
+        'wp_autoresize_on' => true
+    ))
   ));
