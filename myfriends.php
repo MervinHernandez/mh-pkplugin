@@ -15,6 +15,7 @@ Related Piklist Items
       // ,'page_icon' => piklist('url', 'piklist') . '/parts/img/piklist-page-icon-32.png'
       ,'supports' => array(
         'title'
+        , 'thumbnail'
       )
       ,'public' => true
       ,'admin_body_class' => array(
