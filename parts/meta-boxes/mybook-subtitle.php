@@ -1,6 +1,8 @@
 <?php
 /*
-post type: mybook
+title: Book Subtitle
+post_type: mybook
+meta_box: false
 */
 
 /* Book Author Field */
