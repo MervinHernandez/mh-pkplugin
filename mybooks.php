@@ -1,6 +1,6 @@
 <?php
 /***
-POST TYPE: mybook
+My Books POST TYPE
 + Meta-box: mybook-details
 ***/
   add_filter('piklist_post_types', 'mybooks_post_type');
