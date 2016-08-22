@@ -1,8 +1,8 @@
 <?php
 /*
 title: Main Book Content
-post_type: mybook
-meta_box: false
+post type: mybook
+meta box: false
 */
 
 /* Book Author Field */
