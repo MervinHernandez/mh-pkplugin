@@ -34,17 +34,3 @@ My Friends POST TYPE
     );
     return $post_types;
   }
-
-/* Friend Subtitle Field */
-  function myfriend_subtitle_add() {
-  piklist('field', array(
-    'type' => 'text'
-    ,'field' => 'myfriend_subtitle'
-    ,'template' => 'field' // format the field without a label
-    ,'attributes' => array(
-      'class' => 'large-text'
-      ,'placeholder' => 'My Friend subtitle'
-    )
-  ));
-}
-add_action('edit_form_after_title', 'myfriend_subtitle_add');

@@ -17,6 +17,9 @@ meta box: false
   ));
 /* Editor Box */
   piklist('field', array(
-    'type' => 'editor',
-    'field' => 'content',
+    'type' => 'editor'
+    , 'field' => 'content'
+    , 'attributes' => arra(
+      'class' => 'large-text'
+      )
   ));
