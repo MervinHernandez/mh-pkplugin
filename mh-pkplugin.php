@@ -16,3 +16,5 @@ if (!defined('ABSPATH'))
 include 'mybooks.php';
 /*** myFriends - Post Type Definition ***/
 include 'myfriends.php';
+/*** myThings - Post Type Definition ***/
+include 'mythings.php';
