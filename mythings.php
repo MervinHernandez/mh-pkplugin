@@ -32,8 +32,8 @@ function mythings_post_type($post_types) {
     )
     ,'hide_meta_box' => array(
       'mymetabox_revslider_0'
-    ,'menu_icon' => 'dashicons-carrot'      
     )
+    ,'menu_icon' => 'dashicons-carrot' 
   );
   return $post_types;
 }
