@@ -33,6 +33,7 @@ Related Piklist Items
       ,'hide_meta_box' => array(
         //Metaboxes to hide go here
       )
+      , 'menu_icon' => 'dashicons-book-alt'
     );
     return $post_types;
   }
