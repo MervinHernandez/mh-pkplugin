@@ -6,6 +6,21 @@ Related Piklist Items
 > mythings-main.php
 > mythings-details.php
 ***/
+// Admin Page
+add_filter('piklist_admin_pages', 'my_admin_pages');
+function my_admin_pages($pages) {
+
+	$pages[] = array(
+		'page_title' => 'About this plugin'
+		,'menu_title' => 'About'
+		,'menu_slug' => 'about_my_plugin'
+		,'capability' => 'manage_options'
+		,'sub_menu' => 'edit.php?post_type=mything'
+	);
+
+	return $pages;
+}
+
 // Define the new post type
 add_filter('piklist_post_types', 'mythings_post_type');
 function mythings_post_type($post_types) {
