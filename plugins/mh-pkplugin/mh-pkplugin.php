@@ -12,9 +12,11 @@ Text Domain: mh-pkplugin
 if (!defined('ABSPATH'))
   {exit;}
 
-/*** myBooks - Post Type Definition ***/
+// myBooks
 include 'mybooks.php';
-/*** myFriends - Post Type Definition ***/
+
+// myFriends
 include 'myfriends.php';
-/*** myThings - Post Type Definition ***/
+
+// myThings
 include 'mythings.php';
