@@ -18,7 +18,9 @@
 
 add_filter( 'x_enqueue_parent_stylesheet', '__return_true' );
 
-// Remove WooCommerce Updater
+// HIDE WooCommerce Admin Notices
+// =============================================================================
+add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
 remove_action('admin_notices', 'woothemes_updater_notice');
 
 // Remove WP Emoji head jargon
